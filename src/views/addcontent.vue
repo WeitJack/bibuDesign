@@ -101,6 +101,8 @@ export default {
             pcContent:"",
             createTime:"",
             updateTime:"",
+            sort:"0",
+            viewCount:"0",
         });
         const partList = ref([]);
         //获取列表数据
