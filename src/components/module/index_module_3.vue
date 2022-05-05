@@ -22,7 +22,7 @@
             <img src="https://pic.letsfun.cn/pic/101460/al-img1.jpg" alt="">
             <p><span>常见问题</span><span>MORE+</span></p>
           </div>
-          <swiper :direction="'vertical'" ref="swiperBox"
+          <swiper :direction="'vertical'"
           :autoplay="{
             delay:1000,
             disableOnInteraction: true,
@@ -133,7 +133,7 @@ object-fit: cover;object-position: center;
 }
 .index_module_3 .content1 div.right .img p{width: 100%;box-sizing: border-box;line-height: 40px; position: absolute;left: 0;bottom: 0; padding: 0 20px;display: flex;justify-content: space-between;background-color: rgba(255, 0, 0, 0.5);color: #fff;}
 .index_module_3 .content1 div.right .swiper{height: 200px;}
-.index_module_3 .content1 div.right .swiper::v-deep .swiper-slide{height: 90px !important;border-bottom: 1px dashed #888;padding: 10px 0;}
+.index_module_3 .content1 div.right .swiper .swiper-slide{height: 90px !important;border-bottom: 1px dashed #888;padding: 10px 0;}
 .index_module_3 .content1 div.right .swiper .swiper-slide a p{font-size: 16px;padding: 0px 10px;display: flex;margin: 5px 0;}
 .index_module_3 .content1 div.right .swiper .swiper-slide a p:nth-of-type(1){color: black; justify-content: space-between;align-items: center;}
 .index_module_3 .content1 div.right .swiper .swiper-slide a p:nth-of-type(1) span:nth-of-type(1){display: inline-block;width: 200px;

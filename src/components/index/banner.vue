@@ -24,11 +24,11 @@ export default {
   width: 1200px;
   height: 210px;
   margin: 0 auto;
-  background: #eeeff1 url(../../assets/img/building.png) no-repeat center center;
+  background: #eeeff1 url(src/assets/img/building.png) no-repeat center center;
   overflow: hidden;
 }
 .banner .cloud1 {
-  background: url(../../assets/img/cloud.png) 50% no-repeat;
+  background: url(src/assets/img/cloud.png) 50% no-repeat;
   background-size: 70px;
   height: 119px;
   width: 200px;
@@ -50,7 +50,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .cloud2 {
-  background: url(../../assets/img/cloud.png) 50% no-repeat;
+  background: url(src/assets/img/cloud.png) 50% no-repeat;
   background-size: 80px;
   height: 119px;
   width: 200px;
@@ -72,7 +72,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .airShip {
-  background: url(../../assets/img/airship.png) no-repeat;
+  background: url(src/assets/img/airship.png) no-repeat;
   background-size: 110px;
   height: 60px;
   width: 110px;
@@ -93,7 +93,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .car1 {
-  background: url(../../assets/img/car1.png) no-repeat;
+  background: url(src/assets/img/car1.png) no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -114,7 +114,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .car2 {
-  background: url(../../assets/img/car2.png) no-repeat;
+  background: url(src/assets/img/car2.png) no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -135,7 +135,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .car3 {
-  background: url(../../assets/img/car3.png) no-repeat;
+  background: url(src/assets/img/car3.png) no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -156,7 +156,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .car4 {
-  background: url(../../assets/img/car4.png) no-repeat;
+  background: url(src/assets/img/car4.png) no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -177,7 +177,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .car5 {
-  background: url(../../assets/img/car5.png) no-repeat;
+  background: url(src/assets/img/car5.png) no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
@@ -198,7 +198,7 @@ export default {
   animation-timing-function: linear;
 }
 .banner .car6 {
-  background: url(../../assets/img/car6.png) no-repeat;
+  background: url(src/assets/img/car6.png) no-repeat;
   height: 50px;
   width: 50px;
   position: absolute;
