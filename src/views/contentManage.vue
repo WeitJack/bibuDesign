@@ -10,16 +10,19 @@
         </div>
         <div class="container">
         <vxe-table
+        resizable
         :data="contentList"
+        :align="allAlign"
+        :checkbox-config="{labelField: 'id', highlight: true}"
         >
         <vxe-column type="checkbox" field="id" title="编号" width="280" tree-node></vxe-column>
-        <vxe-column field="sort" title="排序"></vxe-column>
+        <vxe-column field="sort" title="排序" ></vxe-column>
         <vxe-column field="title" title="标题"></vxe-column>
-        <vxe-column field="part_id" title="栏目/分类"></vxe-column>
-        <vxe-column field="view_count" title="浏览"></vxe-column>
-        <vxe-column field="create_time" title="添加时间"></vxe-column>
-        <vxe-column field="update_time" title="更新时间"></vxe-column>
-        <vxe-column field="status" title="状态"></vxe-column>
+        <vxe-column field="partName" title="栏目/分类"></vxe-column>
+        <vxe-column field="viewCount" title="浏览"></vxe-column>
+        <vxe-column field="createTime" title="添加时间"></vxe-column>
+        <vxe-column field="updateTime" title="更新时间"></vxe-column>
+        <vxe-column field="status" title="状态" formatter="formatState"></vxe-column>
         <vxe-column title="操作" width="400">
             <template #default="{row}">
               <vxe-button type="text" icon="el-icon-edit" @click="pushToEditPart(row)">修改</vxe-button>
@@ -70,7 +73,7 @@ export default {
         //获取列表数据
         const getContentList = () => {
             getContentData(content).then((res) => {
-                contentList.value = res;
+                contentList.value = res.list;
             })   
         }
         getContentList();
